@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Painel Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!-- <button class="navbar-toggler pull-left" data-toggle="collapse" data-target="#menu"> -->
+                    <button class="navbar-toggler pull-left" data-toggler="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Administrador</a>
+                </div>
+                <div class="navbar-collapse collapse" id="menu">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="#">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="menu">
+            <ul>
+                <li class="d-xl-none"><a href="#">Sair</a></li>
+                <li class="active"><a href="#">Painel</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Livros</a></li>
+                <li><a href="#">Relatórios</a></li>
+                <li><a href="#">Ir para o site</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Teste 1</h3>
+                            </div>
+                            <div class="card-body">
+                                <h3>100.000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Teste 2</h3>
+                            </div>
+                            <div class="card-body">
+                                <h3>300.300</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Teste 3</h3>
+                            </div>
+                            <div class="card-body">
+                                <h3>500.300</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card bg-primary">
+                            <h3 class="card-title">
+                                Últimas Páginas
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Título</th>
+                                        <th class="hidden-xs">Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <td>
+                                        <a href="#">Bootstrap 4 - O que há de novo?</a>
+                                    </td>
+                                    <td class="hidden-xs">
+                                        <a href="#" class="btn btn-xs btn-info">Detalhes
+
+                                        </a>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
